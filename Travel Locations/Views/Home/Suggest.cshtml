@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Suggect Locations";
+}
+<h1 class="text-center display-4">Suggest Some Beautiful Places</h1> 
+<form method="post">
+    <div class="form-group mb-2">
+        <label for="LocationName">Location Name</label>
+        <input type="text" class="form-control" id="LocationName" name="LocationName" placeholder="Enter Location" required>
+    </div>
+    <div class="form-group mb-2">
+        <label for="country">Country</label>
+        <input type="text" class="form-control" id="Country" name="Country" placeholder="Which Country" required>
+    </div>
+    <div class="form-group mb-2">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" name="City" placeholder="Which City" required>
+    </div>
+    <div class="form-group mb-2">
+        <label for="Image">Location Picture</label>
+        <input type="text" class="form-control" id="Image" name="Image" placeholder="Pic URL" required>
+    </div>
+    <div class="form-group mb-2">
+        <label for="Location">Location/Co-Ordinates</label>
+        <input type="text" class="form-control" id="Location" name="Location" placeholder="Enter Location/URL" required>
+    </div>
+    <div class="form-group mb-2">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description"
+        placeholder="Describe your experiance"
+        name="description" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
